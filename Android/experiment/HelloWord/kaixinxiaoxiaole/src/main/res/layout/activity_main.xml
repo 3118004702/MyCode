@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc"
+    tools:context=".MainActivity">
+<!--    <ScrollView-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints">-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="525dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:background="#fff">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@mipmap/bannite"
+                    android:text="班尼特"
+                    android:textAlignment="center"
+                    android:textColor="#e74622" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="0dp"
+                    android:drawableTop="@mipmap/diluke"
+                    android:text="迪卢克"
+                    android:textAlignment="center"
+                    android:textColor="#e74622" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:background="#fff">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@mipmap/abeiduo"
+                    android:text="阿贝多"
+                    android:textAlignment="center"
+                    android:textColor="#d9a04f" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="0dp"
+                    android:drawableTop="@mipmap/zhongli"
+                    android:text="钟离"
+                    android:textAlignment="center"
+                    android:textColor="#d9a04f" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="#fff">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:drawableTop="@mipmap/chongyun"
+                    android:text="重云"
+                    android:textAlignment="center"
+                    android:textColor="#64d8e7" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_alignParentEnd="true"
+                    android:drawableTop="@mipmap/leize"
+                    android:text="雷泽"
+                    android:textAlignment="center"
+                    android:textColor="#a38ec7"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:background="#fff">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@mipmap/dadaliya"
+                    android:text="达达利亚"
+                    android:textAlignment="center"
+                    android:textColor="#49baea" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="0dp"
+                    android:drawableTop="@mipmap/xiao"
+                    android:text="魈"
+                    android:textAlignment="center"
+                    android:textColor="#2f9222" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--    </ScrollView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

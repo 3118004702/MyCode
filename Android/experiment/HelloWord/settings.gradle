@@ -1,0 +1,5 @@
+include ':test3'
+include ':kaixinxiaoxiaole:test3'
+include ':kaixinxiaoxiaole'
+include ':app'
+rootProject.name = "HelloWord"
